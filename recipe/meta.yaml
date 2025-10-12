@@ -1,5 +1,5 @@
 {% set name = "pre-commit-uv" %}
-{% set version = "4.1.5" %}
+{% set version = "4.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pre_commit_uv-{{ version }}.tar.gz
-  sha256: 3f40714152b4f4aa484703b8dbfeb9baa0aaedb17207e0012b3561da756d577d
+  sha256: c32bb1d90235507726eee2aeef2be5fdab431a6f1906e3f1addb0a4e99b369d1
 
 build:
   noarch: python
